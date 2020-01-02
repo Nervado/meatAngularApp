@@ -26,4 +26,15 @@ export class ShoppingCartService {
       .map(item => item.value())
       .reduce((prev, value) => prev + value, 0);
   }
+
+  increaseQty(item: CartItem) {
+    item.quantity += 1;
+  }
+
+  decreaseQty(item: CartItem) {
+    item.quantity -= 1;
+    if (item.quantity === 0) {
+      this.removeItem(item);
+    }
+  }
 }

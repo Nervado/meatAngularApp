@@ -370,5 +370,82 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "adress": "Rua 24 de Maio, 99, Apt 603",
+      "number": "666",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 7,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 2,
+          "menuId": "bread"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "adress": "Rua 24 de Maio, 99, Apt 603",
+      "number": "88",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 3,
+          "menuId": "donut"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "adress": "Rua 24 de Maio, 99, Apt 603",
+      "number": "99",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 5,
+          "menuId": "burger"
+        },
+        {
+          "quantity": 2,
+          "menuId": "coke.png"
+        },
+        {
+          "quantity": 1,
+          "menuId": "fries"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "adress": "Rua 24 de Maio, 99, Apt 603",
+      "number": "99",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "burger"
+        },
+        {
+          "quantity": 3,
+          "menuId": "fries"
+        },
+        {
+          "quantity": 1,
+          "menuId": "coke.png"
+        }
+      ],
+      "id": 4
+    }
+  ]
 }
